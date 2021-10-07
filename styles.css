@@ -1,0 +1,195 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(./background_2.jpg);
+    background-position: center;
+    background-size: auto;
+    clear: both;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: .77rem;
+  font-weight: bold;
+  background-color: snow
+}
+
+.header li {
+    display: inline;
+    padding-right: 2.22rem;
+    color: rgb(255, 239, 21);
+    text-decoration: none;
+  }
+  
+
+
+
+.banner h1{
+    text-align: center;
+    font-size: 3rem;
+    color: violet;
+    font-family: cursive;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.welcome p{
+    text-align: center;
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+.welcome img{
+    height: 10rem;
+    width: 12rem;
+    position: relative;
+    left: 25%;
+    border-radius: 20%;
+
+}
+
+
+.link{
+    color: darkorange;
+}
+
+.motto{
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+.motto img{
+    float: left;
+    clear: both;
+    border-radius: 48%;
+    margin-top: -2rem;
+}
+
+.motto .say{
+    margin-top: 5em;
+    margin-left: 14rem;
+}
+
+
+
+.main{
+    text-align: center;
+    font-family: inherit;
+    color: blue;
+}
+
+footer{
+    text-align: right;
+}nav {
+    background-color: DarkGreen;
+    display: flex;
+    position: sticky;
+    z-index: 10;
+    width: 100%;
+    margin: 0;
+    padding:20px;
+    }
+  
+  a {
+    text-decoration: none;
+    display: flex;
+    width: 100%; 
+    font-size: 0.95em;
+  }
+  
+  h1 {
+    background-image: url(https://images.unsplash.com/photo-1509448870878-79f063dd76b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-image: cover;
+    padding-bottom: 75px;
+    color: rgb(248, 200, 68);
+    font-weight: bold;
+    width: 100%;
+    opacity: 0.85;
+    font-family: impact;
+    position: relative;
+  }
+  
+  h2, a {
+    background-color: DarkGreen;
+    color: White;
+    font-weight: bold;
+    font-family: Helvetica, Georgia, sans-serif;
+    margin: 0;
+  }
+  
+  #nav-bar {
+    display: flex;
+    background-color: DarkGreen;
+    width: 100%;
+  }
+  
+  p {
+    font-family: Helvetica, Georgia, sans-serif;
+    background-color: #F0EEEF;
+    margin: 0;
+    position: relative;
+    color: DarkGrey;
+  }
+  
+  label {
+    font-family: Helvetica, Georgia, sans-serif;
+  }
+  
+  .sesh {
+    width: 80%
+    border-collapse: collapse;
+    border-radius: 10px 10px 0 0;
+    margin: 25px 0;
+    text-align: left;
+    font-size: 0.9em;
+    font-family: Helvetica, Georgia, sans-serif;
+    color: White;
+    border: 1px solid DarkGray;
+    border-bottom: 3px solid DarkGray;
+    box-shadow: 0 0 20px lightGray;
+    overflow: hidden;
+  }
+  
+  .sesh thead {
+    border-radius: 10px 10px 0 0;
+  }
+  .sesh thead tr {
+    Background-color: DarkGreen;
+    color: White;
+    font-weight: bold;
+  }
+  
+  .sesh th, td {
+    padding: 12px 15px;
+  }
+  
+  .sesh tbody tr {
+    border-bottom: 1px solid DarkGray;
+  }
+  
+  .sesh tbody tr:nth-of-type(odd) {
+    background-color: LightGray;
+  }
+  
+  .sesh tbody tr:nth-of-type(even) {
+    background-color: DarkGreen;
+    opacity: 0.70;
+  }
+  
+  footer {
+    background-color: DarkGreen;
+    color: White;
+    text-align: center; 
+    padding: 20px;
+  }
+  
+  @media only screens and (max-width: 480px){
+    * {overflow: scroll;
+    }
+    .sesh {
+      min-width: 350px;
+    }
+  
+  }
